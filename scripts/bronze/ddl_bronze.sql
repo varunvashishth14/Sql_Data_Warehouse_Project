@@ -81,8 +81,7 @@ IF OBJECT_ID('Bronze.erp_px_cat_g1v2', 'U') IS NOT NULL
     DROP TABLE Bronze.erp_px_cat_g1v2;
 GO
 
-CREATE TABLE B
-	ronze.erp_px_cat_g1v2 (
+CREATE TABLE Bronze.erp_px_cat_g1v2 (
     id           NVARCHAR(50),
     cat          NVARCHAR(50),
     subcat       NVARCHAR(50),
